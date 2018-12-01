@@ -13,7 +13,7 @@
 // -1, -2, -3 results in -6
 // Starting with a frequency of zero, what is the resulting frequency after all of the changes in frequency have been applied?
 
-`+19
+let puzzleInput = `+19
 -15
 +6
 +6
@@ -1043,3 +1043,9 @@
 +20
 -74755
 `
+let puzzleInputArray = puzzleInput.map((stringNum)=> parseInt(stringNum))
+
+let sum = 0
+  for(let i = 0; i < puzzleInputArray.length; i++){
+    sum += puzzleInputArray[i]
+  }
