@@ -1,3 +1,6 @@
+//n = number of socks (number of items in array)
+//arr = array of items, each reprenting a sock color. a pair is a sock of same color
+
 function sockMerchant(n, ar) {
     let colorTracker ={}
     let numberOfPairs = 0
